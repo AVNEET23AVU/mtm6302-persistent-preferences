@@ -1,0 +1,35 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Themes */
+  body.light {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  body.dark {
+    background-color: #333;
+    color: #f9f9f9;
+  }
+  
+  body.colorful {
+    background-color: #ffe4c4;
+    color: #4b0082;
+  }
+  
+  /* List styles */
+  #list {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .list-group-item {
+    list-style-type: inherit;
+  }
+  
